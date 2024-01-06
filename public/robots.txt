@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://syihabudin.my.id/sitemap.xml
+Sitemap: https://syihabudin.vercel.app/sitemap.xml
