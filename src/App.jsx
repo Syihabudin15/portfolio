@@ -41,7 +41,7 @@ export default function App(){
             easing: 'ease-out-cubic',
             once: true,
             offset: 50,
-            delay: 500
+            delay: 100
         });
     }, []);
     useEffect(() => {

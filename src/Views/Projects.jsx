@@ -62,43 +62,43 @@ export default function Projects(){
 
 const items = [
     {
-        name: "Sistem Pendukung Keputusan Menggunakan Metode Analitical Hierarchy Process",
-        desc: "Aplikasi web sistem pendukung pengambilan keputusan dengan menggunakan metode Analitycal Hierarchy Proccess",
-        tech: ["MySQL", "Express Js", "Vite Js", "Node Js"],
+        name: "Sistem Pendukung Keputusan Menggunakan Metode AHP",
+        desc: "Aplikasi web sistem pendukung pengambilan keputusan menggunakan metode Analitycal Hierarchy Proccess Pada Perusahaan PT. Telkom Akses area Bandung",
+        tech: ["MySQL", "Vite Js", "Node Js"],
         tools: ["Jsonwebtoken", "Ant Design", "Sequelize", "Xampp"],
         url: "https://github.com/Syihabudin15/spk-ahp-ui"
     },
     {
-        name: "Un Script Technology",
-        desc: "Aplikasi web penyedia layanan jasa pembuatan Skripsi, Tesis, Undangan Digital, Website, dan Mobile apps",
-        tech: ["Postgres", "Mongo DB", "Next Js"],
-        tools: ["Ant Design", "Redux", "Typescript", "Leaflet", "Prisma"],
-        url: "https://github.com/Syihabudin15/un-script-website"
-    },
-    {
-        name: "Sistem Inventory Pada Perusahaan PT. Tunas Daihatsu Mengggunakan Metode SDLC",
-        desc: "Aplikasi web pengelolaan data transaksi barang, monitoring stok barang, dan pencetakan laporan bulanan",
+        name: "Sistem Inventory Menggunakan Metode SDLC",
+        desc: "Aplikasi web pengelolaan data barang, transaksi barang, monitoring stok barang, dan pencetakan laporan bulanan pada perusahaan PT. Tunas Daihatsu",
         tech: ["MySQL", "Laravel"],
         tools: ["Bootstrap", "Eloquent", "DomPDF", "Xampp"],
         url: "https://github.com/Syihabudin15/inventory"
     },
     {
-        name: "Housing Complex",
-        desc: "Restfull API sejenis marketplace untuk melakukan pemasaran dan jual beli perumahan",
+        name: "Un Script Technology",
+        desc: "Aplikasi web penyedia layanan jasa yang berpengalaman untuk pembuatan Skripsi, Tesis, Undangan Digital, Website, dan Mobile apps",
+        tech: ["Postgres", "Mongo DB", "Next Js"],
+        tools: ["Ant Design", "Typescript", "Leaflet", "Prisma", "Mongoose"],
+        url: "https://github.com/Syihabudin15/un-script-website"
+    },
+    {
+        name: "Mini Project Housing Complex",
+        desc: "Restfull API marketplace untuk melakukan pemasaran dan jual beli perumahan, projek ini dibuat untuk memenuhi syarat kelulusan pelatihan Enigma Camp",
         tech: [".NET", "ASP Net Core", "SqlServer"],
         tools: ["Jsonwebtoken", "Sql Client", "Duitku"],
         url: "https://github.com/Syihabudin15/housing-complex"
     },
     {
         name: "AMH News",
-        desc: "Aplikasi web sejenis portal berita untuk menampilkan fakta-fakta yang telah terjadi",
+        desc: "Aplikasi web portal berita untuk menampilkan fakta-fakta berita yang telah terjadi di Indonesia",
         tech: ["Mongo DB", "Express Js", "React Js", "Node Js"],
         tools: ["Jsonwebtoken", "Ant Design", "Cloudinary", "Redux", "Mongoose", "Typescript"],
         url: "https://github.com/Syihabudin15/amh-news-ui"
     },
     {
         name: "AMH Game",
-        desc: "Aplikasi web sejenis Play To Earn (P2P). dimana pengguna dapat bermain game untuk mendapat keuntungan",
+        desc: "Aplikasi web Game Play To Earn (P2P), dimana pengguna dapat bermain game untuk mendapat keuntungan",
         tech: ["MySQL", "Express Js", "React Js", "Node Js"],
         tools: ["Jsonwebtoken", "Ant Design", "Redux", "Xendit", "Nodemailer", "Sequelize", "Xampp"],
         url: "https://github.com/Syihabudin15/amh-game-ui"
