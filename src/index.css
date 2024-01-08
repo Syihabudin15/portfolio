@@ -79,7 +79,6 @@ html, body{
   transition: 200ms;
 }
 .drop{
-  transition: 1s;
   transform: scale(1.1);
   transition: 200ms;
 }
@@ -114,10 +113,6 @@ html, body{
   gap: 20px;
   margin: 50px auto;
 }
-.card-item:hover{
-  transform: scale(.97);
-  transition: 500ms;
-}
 .plat{
   width: 37%;
 }
@@ -147,7 +142,11 @@ html, body{
 .icon-font:hover{
   transform: scaleX(-1);
 }
-
+#card:hover{
+  cursor: pointer;
+  transform: scale(.97);
+  transition: 300ms;
+}
 
 
 /* Mobile Style */

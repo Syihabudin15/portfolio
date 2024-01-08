@@ -7,7 +7,7 @@ export default function Courses(){
             <Divider/>
             <div className="courses-wrap">
                 {courses.map((e,i) => (
-                    <div className="card-item" key={i} data-aos="fade-up" data-aos-duration={e.dur}>
+                    <div className="card-item" key={i} data-aos="fade-up" data-aos-duration={e.dur} id="card">
                         <div className="courses-items">
                             <div className="plat">Platform</div>
                             <div className="titik">:</div>
