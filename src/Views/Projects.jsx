@@ -88,19 +88,5 @@ const items = [
         tech: [".NET", "ASP Net Core", "SqlServer"],
         tools: ["Jsonwebtoken", "Sql Client", "Duitku"],
         url: "https://github.com/Syihabudin15/housing-complex"
-    },
-    {
-        name: "AMH News",
-        desc: "Aplikasi web portal berita untuk menampilkan fakta-fakta berita yang telah terjadi di Indonesia",
-        tech: ["Mongo DB", "Express Js", "React Js", "Node Js"],
-        tools: ["Jsonwebtoken", "Ant Design", "Cloudinary", "Redux", "Mongoose", "Typescript"],
-        url: "https://github.com/Syihabudin15/amh-news-ui"
-    },
-    {
-        name: "AMH Game",
-        desc: "Aplikasi web Game Play To Earn (P2P), dimana pengguna dapat bermain game untuk mendapat keuntungan",
-        tech: ["MySQL", "Express Js", "React Js", "Node Js"],
-        tools: ["Jsonwebtoken", "Ant Design", "Redux", "Xendit", "Nodemailer", "Sequelize", "Xampp"],
-        url: "https://github.com/Syihabudin15/amh-game-ui"
-    },
+    }
 ]
