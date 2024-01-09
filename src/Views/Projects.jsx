@@ -1,4 +1,4 @@
-import { Avatar, Button, Card, Divider, Image, Modal, Tag } from "antd";
+import { Avatar, Button, Card, Divider, Modal, Tag } from "antd";
 import { useState } from "react";
 
 export default function Projects(){
@@ -16,6 +16,7 @@ export default function Projects(){
     return(
         <div style={{margin: '50px auto', padding: 10    , boxSizing: 'border-box'}}>
             <h3 style={{textAlign: 'center'}}>Projects</h3>
+            <Divider />
             <div className="card-project-wrap">
                 {items.map((e,i) => (
                     <Card type="inner" className="card-project" key={i} data-aos="zoom-in" id="card">

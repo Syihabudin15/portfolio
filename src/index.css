@@ -68,20 +68,6 @@ html, body{
   margin-top: 40px;
   font-style: italic;
 }
-.fire{
-  transition: 500ms;
-  opacity: .5;
-  transition: 200ms;
-}
-.smile{
-  transition: 500ms;
-  margin-bottom: 20px;
-  transition: 200ms;
-}
-.drop{
-  transform: scale(1.1);
-  transition: 200ms;
-}
 .andro{
   transition: 500ms;
   transform: scaleX(-1);
@@ -154,6 +140,9 @@ html, body{
   .menu-windows{
     display: none;
   }
+  .brand-wrap{
+    height: 85vh;
+  }
   .menu-wrap{
     padding: 10px 30px;
   }
@@ -210,5 +199,57 @@ html, body{
   }
   .card-item{
     width: 350px;
+  }
+}
+
+#smile{
+  animation: smile 3s infinite linear;
+}
+@keyframes smile {
+  0%{
+    bottom: 20px;
+  }
+  50%{
+    bottom: 50px;
+  }
+  100%{
+    bottom: 20px;
+  }
+}
+
+#fire{
+  animation: fire 4s infinite linear;
+}
+@keyframes fire{
+  0%{
+    color: rgb(96, 0, 0);
+  }
+  40%{
+    color: red;
+  }
+  60%{
+    color: rgb(175, 0, 0);
+  }
+  80%{
+    color: red;
+  }
+  100%{
+    color: rgb(130, 0, 0);
+  }
+}
+
+#auth{
+  animation: auth 2s infinite linear;
+}
+@keyframes auth {
+  0%{
+    padding-bottom: 10px;
+  }
+  50%{
+    padding-bottom: 15px;
+    transform: rotate(-20deg);
+  }
+  100%{
+    padding-bottom: 10px;
   }
 }

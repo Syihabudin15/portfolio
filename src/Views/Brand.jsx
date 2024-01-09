@@ -16,17 +16,11 @@ export default function Brand(){
                 i = i+1;
             }
         }, 300);
-        setInterval(() => {
-            document.getElementById("fire").classList.toggle("fire");
-            document.getElementById("smile").classList.toggle("smile");
-            document.getElementById("drop").classList.toggle("drop");
-            document.getElementById("andro").classList.toggle("andro");
-        }, 3000);
     }, []);
     return(
         <section title="My Brand" className={`brand-wrap`}>
             <div className="brand-left">
-                <h1>Syihabudin Tsani</h1>
+                <h1 id="auth">Syihabudin Tsani</h1>
                 <h2 style={{paddingBottom: 10, borderBottom: '1px solid #d4d4d4'}}>Web Developer</h2>
                 <h3 className="quote" data-aos="fade-up" data-aos-duration="3000" id="keep"></h3>
                 <FireFilled id="fire" style={{fontSize: 50, color: 'red'}} data-aos="flip-right" data-aos-duration="3000" data-aos-delay="3000"/>
